@@ -10,6 +10,9 @@
 	font: inherit;
 	vertical-align: baseline;
 }
+html {
+    overflow-x: hidden;
+}
 body {
     font-family: 'Red Hat Display', sans-serif;
     background: #FAFAFA;
@@ -102,8 +105,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+.line-circle1 {
     margin-bottom: 60px;
+}
+.line-circle2 {
+    margin-bottom: -30px;
 }
 .line1, .line2 {
     height: 84px;
@@ -175,7 +182,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #87879D
+    color: #87879D;
 }
 footer {
     height: 430px;
